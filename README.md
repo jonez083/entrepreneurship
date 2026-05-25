@@ -1,16 +1,58 @@
-# React + Vite
+# MedAI – Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page for an AI-powered patient data search prototype, focused on medication management in medical practices.
 
-Currently, two official plugins are available:
+## Live Prototype
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[https://med-scan-table.lovable.app](https://med-scan-table.lovable.app)
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- [React](https://react.dev/) + [Vite](https://vite.dev/)
+- [Tailwind CSS v4](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Lucide Icons](https://lucide.dev/)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Build
+
+```bash
+npm run build
+```
+
+Output is written to `dist/`.
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Nav.jsx            # Sticky navigation bar
+│   ├── Hero.jsx           # Hero section with CTA
+│   ├── Problem.jsx        # Problem statement cards
+│   ├── Solution.jsx       # Step-by-step solution
+│   ├── ExampleQueries.jsx # Example query cards
+│   ├── Features.jsx       # Feature grid
+│   ├── FinalCTA.jsx       # Bottom call-to-action
+│   └── Footer.jsx
+├── hooks/
+│   └── useInView.js       # Intersection observer hook
+├── App.jsx                # Root component, click tracking
+└── index.css              # Global styles & Tailwind
+```
+
+## Click Tracking
+
+Launch count is stored in `localStorage` under the key `medai_launch_count` and displayed on the page. No backend required.
+
+---
+
+*Built as a university research prototype. Not for clinical use.*
