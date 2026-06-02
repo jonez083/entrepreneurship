@@ -67,7 +67,7 @@ export default function Hero({ launchCount, onLaunch }) {
         <motion.div {...fadeUp(0)} className="flex justify-center mb-8">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full glass border border-indigo-500/20 text-xs font-medium text-indigo-300 uppercase tracking-widest">
             <Sparkles className="w-3 h-3" />
-            AI for Medical Practices
+            KI für Arztpraxen
           </div>
         </motion.div>
 
@@ -76,10 +76,10 @@ export default function Hero({ launchCount, onLaunch }) {
           {...fadeUp(0.1)}
           className="text-5xl md:text-7xl lg:text-8xl font-bold tracking-tight leading-[1.05] mb-6"
         >
-          <span className="text-white">Your patient data.</span>
+          <span className="text-white">Ihre Patientendaten.</span>
           <br />
           <span className="gradient-text glow-text">
-            Finally searchable.
+            Endlich durchsuchbar.
           </span>
         </motion.h1>
 
@@ -88,9 +88,9 @@ export default function Hero({ launchCount, onLaunch }) {
           {...fadeUp(0.2)}
           className="text-lg md:text-xl text-white/50 max-w-2xl mx-auto leading-relaxed mb-12"
         >
-          Patient data in medical practices is rarely documented consistently —
-          different notations, abbreviations, and formats make reliable search nearly impossible.
-          Our AI understands what you mean, regardless of how the data was recorded.
+          Patientendaten in Arztpraxen werden selten einheitlich dokumentiert —
+          unterschiedliche Schreibweisen, Abkürzungen und Formate machen eine zuverlässige Suche nahezu unmöglich.
+          Unsere KI versteht, was gemeint ist – unabhängig davon, wie die Daten erfasst wurden.
         </motion.p>
 
         {/* CTAs */}
@@ -103,21 +103,21 @@ export default function Hero({ launchCount, onLaunch }) {
             onClick={onLaunch}
             className="btn-primary group inline-flex items-center gap-3 text-white font-semibold text-base px-8 py-4 rounded-xl"
           >
-            <span>Launch Prototype</span>
+            <span>Prototyp starten</span>
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </a>
           <a
             href="#problem"
             className="btn-secondary inline-flex items-center gap-2 text-white/70 font-medium text-base px-6 py-4 rounded-xl"
           >
-            See how it works
+            So funktioniert's
           </a>
         </motion.div>
 
         {/* Launch counter */}
         <motion.div {...fadeUp(0.4)}>
           <p className="text-xs text-white/25 font-mono tracking-wider">
-            PROTOTYPE LAUNCHES:{' '}
+            PROTOTYP-STARTS:{' '}
             <span className="text-white/40">{launchCount.toLocaleString()}</span>
           </p>
         </motion.div>

@@ -5,29 +5,29 @@ import { MessageSquare, Table2, Upload, Pill, Brain, Zap } from 'lucide-react'
 const steps = [
   {
     icon: Upload,
-    title: 'Upload Patient Data',
-    desc: 'Import your patient records via Excel. No complex setup — just drag, drop, and go.',
+    title: 'Patientendaten hochladen',
+    desc: 'Patientenakten einfach per Excel importieren. Kein aufwändiges Setup – einfach hochladen und loslegen.',
     accent: 'rgba(99,102,241,0.15)',
     iconColor: 'text-indigo-400',
   },
   {
     icon: MessageSquare,
-    title: 'Ask in Natural Language',
-    desc: 'Type queries like you would in ChatGPT. No SQL, no filters — just plain English.',
+    title: 'In natürlicher Sprache fragen',
+    desc: 'Anfragen stellen wie bei ChatGPT – kein SQL, keine Filter, einfach normal formulieren.',
     accent: 'rgba(34,211,238,0.12)',
     iconColor: 'text-cyan-400',
   },
   {
     icon: Brain,
-    title: 'AI Finds the Insights',
-    desc: 'The AI understands medication relationships, flags conflicts, and identifies patterns instantly.',
+    title: 'KI findet die Zusammenhänge',
+    desc: 'Die KI versteht Medikamentenbeziehungen, erkennt Wechselwirkungen und identifiziert relevante Muster sofort.',
     accent: 'rgba(167,139,250,0.12)',
     iconColor: 'text-purple-400',
   },
   {
     icon: Table2,
-    title: 'Get Structured Results',
-    desc: 'Results delivered in clean, interactive tables. Export back to Excel with one click.',
+    title: 'Strukturierte Ergebnisse erhalten',
+    desc: 'Ergebnisse werden in übersichtlichen Tabellen dargestellt. Mit einem Klick zurück nach Excel exportieren.',
     accent: 'rgba(52,211,153,0.12)',
     iconColor: 'text-emerald-400',
   },
@@ -66,20 +66,20 @@ export default function Solution() {
             transition={{ duration: 0.7 }}
           >
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-xs font-medium text-indigo-400 uppercase tracking-widest mb-6">
-              The Solution
+              Die Lösung
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tight leading-tight mb-6">
-              Search patient data<br />
-              <span className="gradient-text">like you search the web</span>
+              Patientendaten durchsuchen<br />
+              <span className="gradient-text">wie im Internet suchen</span>
             </h2>
             <p className="text-white/45 text-lg leading-relaxed mb-8">
-              MedAI brings the power of large language models directly into clinical workflows.
-              Query thousands of patient records in plain English and get structured, actionable results in seconds.
+              MedAI bringt die Leistungsfähigkeit großer Sprachmodelle direkt in den Praxisalltag.
+              Tausende Patientenakten auf Deutsch abfragen – und strukturierte, handlungsrelevante Ergebnisse in Sekunden erhalten.
             </p>
 
             {/* Capabilities chips */}
             <div className="flex flex-wrap gap-2">
-              {['Natural Language', 'Medication Focus', 'Excel Import', 'Conflict Detection', 'Fast Export', 'Semantic Search'].map(cap => (
+              {['Natürliche Sprache', 'Medikamentenfokus', 'Excel-Import', 'Wechselwirkungen erkennen', 'Schneller Export', 'Semantische Suche'].map(cap => (
                 <span
                   key={cap}
                   className="px-3 py-1.5 rounded-full text-xs font-medium glass border border-white/[0.08] text-white/60"
@@ -118,7 +118,7 @@ export default function Solution() {
                 <div className="pt-1.5">
                   <div className="flex items-center gap-2 mb-1.5">
                     <span className="text-[10px] font-bold text-white/20 uppercase tracking-widest">
-                      Step {i + 1}
+                      Schritt {i + 1}
                     </span>
                   </div>
                   <h3 className="text-white/90 font-semibold mb-1">{title}</h3>

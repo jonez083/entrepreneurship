@@ -6,46 +6,46 @@ import { Search } from 'lucide-react'
 const queries = [
   {
     icon: Users,
-    query: 'Which patients over 60 are taking Ibuprofen?',
-    result: '11 patients found · sorted by age',
+    query: 'Welche Patienten über 60 nehmen Ibuprofen?',
+    result: '11 Patienten gefunden · nach Alter sortiert',
     color: 'from-indigo-500/10 to-indigo-600/5',
     border: 'border-indigo-500/20',
     iconBg: 'bg-indigo-500/15',
     iconColor: 'text-indigo-400',
-    tag: 'Age Filter',
+    tag: 'Altersfilter',
     tagColor: 'text-indigo-400 bg-indigo-500/10 border-indigo-500/20',
   },
   {
     icon: HeartPulse,
-    query: 'Who is suffering from hypertension?',
-    result: '23 patients · incl. current medication',
+    query: 'Wer leidet unter Bluthochdruck?',
+    result: '23 Patienten · inkl. aktueller Medikation',
     color: 'from-rose-500/10 to-rose-600/5',
     border: 'border-rose-500/20',
     iconBg: 'bg-rose-500/15',
     iconColor: 'text-rose-400',
-    tag: 'Diagnosis Search',
+    tag: 'Diagnosesuche',
     tagColor: 'text-rose-400 bg-rose-500/10 border-rose-500/20',
   },
   {
     icon: Pill,
-    query: 'Who has diabetes and is taking Metformin?',
-    result: '8 patients · dosage & history available',
+    query: 'Wer hat Diabetes und nimmt Metformin?',
+    result: '8 Patienten · Dosierung & Verlauf einsehbar',
     color: 'from-amber-500/10 to-amber-600/5',
     border: 'border-amber-500/20',
     iconBg: 'bg-amber-500/15',
     iconColor: 'text-amber-400',
-    tag: 'Combination',
+    tag: 'Kombination',
     tagColor: 'text-amber-400 bg-amber-500/10 border-amber-500/20',
   },
   {
     icon: AlertCircle,
-    query: 'Which patients are on an unavailable medication?',
-    result: '5 patients · alternative drugs suggested',
+    query: 'Welche Patienten nehmen ein nicht lieferbares Medikament?',
+    result: '5 Patienten · Alternativpräparate vorgeschlagen',
     color: 'from-purple-500/10 to-purple-600/5',
     border: 'border-purple-500/20',
     iconBg: 'bg-purple-500/15',
     iconColor: 'text-purple-400',
-    tag: 'Availability',
+    tag: 'Verfügbarkeit',
     tagColor: 'text-purple-400 bg-purple-500/10 border-purple-500/20',
   },
 ]
@@ -87,15 +87,15 @@ export default function ExampleQueries() {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-xs font-medium text-indigo-400 uppercase tracking-widest mb-6">
-            Example Queries
+            Beispielanfragen
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tight mb-5">
-            Ask anything about{' '}
-            <span className="gradient-text">your patients</span>
+            Fragen stellen wie im{' '}
+            <span className="gradient-text">Gespräch</span>
           </h2>
           <p className="text-white/45 text-lg max-w-2xl mx-auto leading-relaxed">
-            Just type what you want to know. The AI understands medical context and returns
-            structured results — regardless of how the underlying data was documented.
+            Einfach eintippen, was Sie wissen möchten. Die KI versteht medizinische Zusammenhänge
+            und liefert strukturierte Ergebnisse – unabhängig davon, wie die Daten dokumentiert wurden.
           </p>
         </motion.div>
 

@@ -11,10 +11,10 @@ export default function Footer() {
           <span className="text-white/40 text-sm font-medium">MedAI</span>
         </div>
         <p className="text-white/25 text-xs text-center">
-          University research prototype · Not for clinical use · {new Date().getFullYear()}
+          Universitärer Forschungsprototyp · Nicht für den klinischen Einsatz · {new Date().getFullYear()}
         </p>
         <p className="text-white/20 text-xs">
-          AI-Powered Healthcare Search
+          KI-gestützte Patientensuche
         </p>
       </div>
     </footer>
