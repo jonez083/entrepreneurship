@@ -6,35 +6,35 @@ const problems = [
   {
     icon: FileX,
     stat: '∞',
-    label: 'spellings, one medication',
-    desc: 'The same drug is recorded in countless ways across patients and staff — making any consistent search unreliable.',
+    label: 'Schreibweisen, ein Medikament',
+    desc: 'Dasselbe Medikament wird von verschiedenen Personen auf unzählige Arten eingetragen – eine konsistente Suche wird dadurch unmöglich.',
     color: 'from-red-500/20 to-red-600/5',
     iconColor: 'text-red-400',
     border: 'border-red-500/15',
   },
   {
     icon: Clock,
-    stat: 'Minutes',
-    label: 'for a simple query',
-    desc: 'Who is currently on a specific medication? Without AI that means manual scrolling, filtering, and comparing — for every patient.',
+    stat: 'Minuten',
+    label: 'für eine einfache Abfrage',
+    desc: 'Wer nimmt aktuell ein bestimmtes Medikament? Ohne KI bedeutet das: manuelles Scrollen, Filtern und Vergleichen – Patient für Patient.',
     color: 'from-amber-500/20 to-amber-600/5',
     iconColor: 'text-amber-400',
     border: 'border-amber-500/15',
   },
   {
     icon: AlertTriangle,
-    stat: 'Missed',
-    label: 'due to inconsistent data',
-    desc: 'Critical drug interactions or unavailable medications go undetected because conventional search simply fails to match entries.',
+    stat: 'Übersehen',
+    label: 'durch uneinheitliche Daten',
+    desc: 'Kritische Wechselwirkungen oder nicht verfügbare Medikamente bleiben unentdeckt, weil die herkömmliche Suche keine Treffer liefert.',
     color: 'from-orange-500/20 to-orange-600/5',
     iconColor: 'text-orange-400',
     border: 'border-orange-500/15',
   },
   {
     icon: Search,
-    stat: 'No',
-    label: 'uniform documentation standard',
-    desc: 'Every practice documents differently. No existing tool bridges that gap — until now.',
+    stat: 'Kein',
+    label: 'einheitlicher Dokumentationsstandard',
+    desc: 'Jede Praxis dokumentiert anders. Bisher überbrückt kein Tool diese Lücke – bis jetzt.',
     color: 'from-rose-500/20 to-rose-600/5',
     iconColor: 'text-rose-400',
     border: 'border-rose-500/15',
@@ -76,15 +76,15 @@ export default function Problem() {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-500/10 border border-red-500/20 text-xs font-medium text-red-400 uppercase tracking-widest mb-6">
-            The Problem
+            Das Problem
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tight mb-5">
-            Inconsistent data is{' '}
-            <span className="text-red-400">everyday reality</span>
+            Uneinheitliche Daten sind{' '}
+            <span className="text-red-400">tägliche Realität</span>
           </h2>
           <p className="text-white/45 text-lg max-w-2xl mx-auto leading-relaxed">
-            Patient records in medical practices are rarely captured using a unified format.
-            That turns every structured search into a challenge — especially when it comes to medication.
+            Patientendaten werden in Arztpraxen selten nach einem einheitlichen Schema erfasst.
+            Das macht jede strukturierte Suche zur Herausforderung – besonders bei der Medikation.
           </p>
         </motion.div>
 

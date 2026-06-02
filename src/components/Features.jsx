@@ -5,43 +5,43 @@ import { Brain, Upload, Pill, Download, Sparkles, Filter } from 'lucide-react'
 const features = [
   {
     icon: Brain,
-    title: 'AI Search',
-    desc: 'Large language model understands clinical terminology and semantic context.',
+    title: 'KI-Suche',
+    desc: 'Das Sprachmodell versteht klinische Fachbegriffe und semantische Zusammenhänge.',
     gradient: 'from-indigo-500 to-indigo-600',
     glow: 'rgba(99,102,241,0.3)',
   },
   {
     icon: Upload,
-    title: 'Excel Upload',
-    desc: 'Import patient records directly from .xlsx files. No data migration needed.',
+    title: 'Excel-Upload',
+    desc: 'Patientenakten direkt aus .xlsx-Dateien importieren – keine Datenmigration nötig.',
     gradient: 'from-emerald-500 to-emerald-600',
     glow: 'rgba(52,211,153,0.25)',
   },
   {
     icon: Pill,
-    title: 'Medication Analysis',
-    desc: 'Detect unavailable drugs, flag incompatible combinations, suggest alternatives.',
+    title: 'Medikamentenanalyse',
+    desc: 'Nicht verfügbare Medikamente erkennen, Wechselwirkungen markieren, Alternativen vorschlagen.',
     gradient: 'from-rose-500 to-rose-600',
     glow: 'rgba(244,63,94,0.25)',
   },
   {
     icon: Download,
-    title: 'Export to Excel',
-    desc: 'Download filtered results as structured Excel files with one click.',
+    title: 'Export nach Excel',
+    desc: 'Gefilterte Ergebnisse mit einem Klick als strukturierte Excel-Datei herunterladen.',
     gradient: 'from-cyan-500 to-cyan-600',
     glow: 'rgba(34,211,238,0.25)',
   },
   {
     icon: Sparkles,
-    title: 'Semantic Understanding',
-    desc: 'Understands synonyms, brand names, and clinical abbreviations automatically.',
+    title: 'Semantisches Verstehen',
+    desc: 'Erkennt automatisch Synonyme, Handelsnamen und klinische Abkürzungen.',
     gradient: 'from-purple-500 to-purple-600',
     glow: 'rgba(168,85,247,0.25)',
   },
   {
     icon: Filter,
-    title: 'Fast Filtering',
-    desc: 'Instantly narrow down thousands of records by any criterion in milliseconds.',
+    title: 'Schnelles Filtern',
+    desc: 'Tausende Einträge nach beliebigen Kriterien in Millisekunden eingrenzen.',
     gradient: 'from-amber-500 to-amber-600',
     glow: 'rgba(245,158,11,0.25)',
   },
@@ -79,14 +79,14 @@ export default function Features() {
           className="text-center mb-16"
         >
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-xs font-medium text-cyan-400 uppercase tracking-widest mb-6">
-            Features
+            Funktionen
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-white tracking-tight mb-5">
-            Everything clinicians need,{' '}
-            <span className="gradient-text-subtle">nothing they don't</span>
+            Alles, was Ärzte brauchen –{' '}
+            <span className="gradient-text-subtle">nichts, was sie nicht brauchen</span>
           </h2>
           <p className="text-white/45 text-lg max-w-2xl mx-auto leading-relaxed">
-            Purpose-built for medication management workflows. No bloat, no training required.
+            Gezielt für das Medikationsmanagement in Arztpraxen entwickelt. Kein Overhead, keine Einarbeitung nötig.
           </p>
         </motion.div>
 

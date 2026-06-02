@@ -16,8 +16,8 @@ export default function Nav({ launchCount, onLaunch }) {
 
   const links = [
     { label: 'Problem', href: '#problem' },
-    { label: 'Solution', href: '#solution' },
-    { label: 'Features', href: '#features' },
+    { label: 'Lösung', href: '#solution' },
+    { label: 'Funktionen', href: '#features' },
   ]
 
   return (
@@ -57,7 +57,7 @@ export default function Nav({ launchCount, onLaunch }) {
         <div className="hidden md:flex items-center gap-4">
           {launchCount > 0 && (
             <span className="text-xs text-white/30 font-mono">
-              {launchCount.toLocaleString()} launches
+              {launchCount.toLocaleString()} Starts
             </span>
           )}
           <a
@@ -65,7 +65,7 @@ export default function Nav({ launchCount, onLaunch }) {
             onClick={onLaunch}
             className="btn-primary text-white text-sm font-semibold px-4 py-2 rounded-lg"
           >
-            Launch Prototype
+            Prototyp starten
           </a>
         </div>
 
@@ -104,7 +104,7 @@ export default function Nav({ launchCount, onLaunch }) {
                 onClick={onLaunch}
                 className="btn-primary text-white text-sm font-semibold px-4 py-2.5 rounded-lg text-center mt-2"
               >
-                Launch Prototype
+                Prototyp starten
               </a>
             </div>
           </motion.div>

@@ -51,18 +51,18 @@ export default function FinalCTA({ launchCount, onLaunch }) {
           </div>
 
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-bold text-white tracking-tight leading-tight mb-6">
-            The future of clinical{' '}
-            <span className="gradient-text glow-text">search is here.</span>
+            Die Zukunft der klinischen{' '}
+            <span className="gradient-text glow-text">Suche ist da.</span>
           </h2>
 
           <p className="text-white/45 text-xl leading-relaxed max-w-2xl mx-auto mb-12">
-            Stop losing time to broken workflows. Experience AI-powered medication management — built for real clinical environments.
+            Schluss mit Zeitverlust durch unstrukturierte Daten. KI-gestütztes Medikationsmanagement – entwickelt für den echten Praxisalltag.
           </p>
 
           {/* Launch counter above button */}
           {launchCount > 0 && (
             <p className="text-xs text-white/25 font-mono tracking-widest mb-6 uppercase">
-              Prototype launches: <span className="text-white/40">{launchCount.toLocaleString()}</span>
+              Prototyp-Starts: <span className="text-white/40">{launchCount.toLocaleString()}</span>
             </p>
           )}
 
@@ -73,13 +73,13 @@ export default function FinalCTA({ launchCount, onLaunch }) {
               onClick={onLaunch}
               className="btn-primary group inline-flex items-center gap-3 text-white font-semibold text-lg px-10 py-5 rounded-2xl"
             >
-              <span>Launch Prototype</span>
+              <span>Prototyp starten</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
             </a>
 
             <div className="flex items-center gap-2 text-white/25 text-xs">
               <div className="w-1 h-1 rounded-full bg-white/20" />
-              <span>Built as a university research prototype.</span>
+              <span>Entwickelt als universitäres Forschungsprototyp.</span>
               <div className="w-1 h-1 rounded-full bg-white/20" />
             </div>
           </div>
