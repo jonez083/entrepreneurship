@@ -107,10 +107,10 @@ export default function Hero({ launchCount, onLaunch }) {
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href="#problem"
+            href="mailto:jonas.kufer@gmail.com?subject=Pilotgespräch MedSearch"
             className="btn-secondary inline-flex items-center gap-2 text-white/70 font-medium text-base px-6 py-4 rounded-xl"
           >
-            So funktioniert's
+            Pilotgespräch vereinbaren
           </a>
         </motion.div>
 
