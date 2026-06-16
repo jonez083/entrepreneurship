@@ -66,8 +66,8 @@ export default function FinalCTA({ launchCount, onLaunch }) {
             </p>
           )}
 
-          {/* CTA button */}
-          <div className="flex flex-col items-center gap-6">
+          {/* CTA buttons */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
               href={PROTOTYPE_URL}
               onClick={onLaunch}
@@ -76,12 +76,18 @@ export default function FinalCTA({ launchCount, onLaunch }) {
               <span>Prototyp starten</span>
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-200" />
             </a>
+            <a
+              href="mailto:jonas.kufer@gmail.com?subject=Pilotgespräch MedSearch"
+              className="btn-secondary inline-flex items-center gap-2 text-white/70 font-semibold text-lg px-8 py-5 rounded-2xl"
+            >
+              Pilotgespräch vereinbaren
+            </a>
+          </div>
 
-            <div className="flex items-center gap-2 text-white/25 text-xs">
-              <div className="w-1 h-1 rounded-full bg-white/20" />
-              <span>Entwickelt als universitäres Forschungsprototyp.</span>
-              <div className="w-1 h-1 rounded-full bg-white/20" />
-            </div>
+          <div className="flex items-center justify-center gap-2 text-white/25 text-xs mt-8">
+            <div className="w-1 h-1 rounded-full bg-white/20" />
+            <span>Entwickelt als universitärer Forschungsprototyp.</span>
+            <div className="w-1 h-1 rounded-full bg-white/20" />
           </div>
         </motion.div>
       </div>

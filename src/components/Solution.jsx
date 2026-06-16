@@ -73,7 +73,7 @@ export default function Solution() {
               <span className="gradient-text">wie im Internet suchen</span>
             </h2>
             <p className="text-white/45 text-lg leading-relaxed mb-8">
-              MedAI bringt die Leistungsfähigkeit großer Sprachmodelle direkt in den Praxisalltag.
+              MedSearch bringt die Leistungsfähigkeit großer Sprachmodelle direkt in den Praxisalltag.
               Tausende Patientenakten auf Deutsch abfragen – und strukturierte, handlungsrelevante Ergebnisse in Sekunden erhalten.
             </p>
 
